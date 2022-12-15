@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-nav-text: #C4C4CC;
+  --color-main: #FFFFFF;
+  --color-text: #E1E1E6;
+  font-size: 62.5%;
+}
+
+body, button{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  color: var(--color-nav-text);
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+
+  display: flex;
+  gap: 4.3rem;
+}
+
+nav li{
+  list-style: none;
+  cursor: pointer;
+}
+
+nav li:hover{
+  color: var(--color-main);
+  font-weight: 700;
+}
+
+.pagDisplay{
+  color: var(--color-main);
+  font-weight: 700;
+}
+
+#main{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+#main h1{
+  margin-top: 0;
+  margin-left: 0;
+}
+
+button{
+  color: var(--color-text);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  width: 19.5rem;
+  height: 4.8rem;
+
+  border: 2px solid var(--color-main);
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+h1{
+  color: var(--color-text);
+  font-size: 4.8rem;
+  margin-top: 11.3rem;
+  margin-left: 10.2rem;
+}
+
+p{
+  color: var(--color-text);
+  font-size: 1.8rem;
+  line-height: 160%;
+  width: 64.8rem;
+  margin-top: 1.6rem;
+  margin-left: 10.2rem;
+}
